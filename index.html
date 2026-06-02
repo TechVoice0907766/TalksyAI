@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talksy AI</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--Loader screen-->
+    <div class="loader-screen" id="loader">
+        <div class="loader-content">
+
+            <!--LOGO-->
+            <img src="Talksy AI.jpg" alt="Talksy AI" class="loader-logo">
+
+            <!--LOADER TEXT-->
+            <p class="loader-text">
+                Loading...
+            </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script>
+        setTimeout(()=>{
+            window.location.href = "chat.html"; 
+        }, 3000);
+    </script>
+
+</body>
+</html>
